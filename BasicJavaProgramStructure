@@ -1,0 +1,23 @@
+//BasicJavaProgramStructure
+//Bri Hurley
+/*
+A program showing the basic program structure of Java
+and notes below
+ */
+public class BasicJavaProgramStructure {
+    public static void main(String[] args) {
+        System.out.println("Hello World");
+    }
+}
+//class defines a class. The class name should match the file name when the class is public.
+//main() is the starting point of a standard Java application.
+//System.out.println() displays output and moves to a new line.
+//System.out.print() displays output without moving to a new line.
+//Every statement normally ends with a semicolon;
+//Curly braces {} mark the beginning and end of a class, method or block.
+
+//Single-line comment
+/*
+Multi-line comment
+explaining the program
+ */
