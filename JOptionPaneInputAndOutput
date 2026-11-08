@@ -1,0 +1,20 @@
+//JOptionPaneInputAndOutput.java
+//Bri Hurley
+// JOptionPane input and output with notes.
+import javax.swing.JOptionPane;
+String name = JOptionPane.showInputDialog("Enter your name");
+JOptionPane.showMessageDialog(null, "Hello " + name);
+
+/* Important:
+showInputDialog() returns a String, even when the user
+types digits. Convert the input before doimg arithmetic. */
+
+String input = JOptionPane.showInputDialog("Enter your age");
+int age = Interger.parseInt(input);
+
+String amountText = JOptionPane.showInputDialog("Enter amount");
+double amount =Double.parseDouble(amountText);
+
+//Integer.parseInt(text)----->String to int
+//Double.parseDouble(text)--->String to double
+//String.valueOf(value)------>Value to String
