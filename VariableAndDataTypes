@@ -1,0 +1,21 @@
+//VariableAndDataTypes.java
+//Bri Hurley
+/*
+Different variable and data types
+with notes below */
+int age = 20; //whole number
+double price = 12.50 //decimal number
+float temperature = 18.5f; 
+char initial = 'B'; //one character, single quotes
+String name = "Bri"; //text, double quotes
+boolean passed = true; //true or false
+
+final double VAT_RATE = 0.23;
+/*final means the variable cannot be reassigned after
+it has been given a value.*/
+
+//Naming and assignment
+//Use meaningful names such as totalMarls rather than x when possible
+//Java convention: variables and methods use lower camelCase; class names use UpperCamelCase.
+//= assigns a value. == compare two values.
+//A variable must be declared before it is used.
